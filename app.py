@@ -1,8 +1,8 @@
 import streamlit as st
 
-initial_investment: float = 20000.00
-years: int = 10
-return_rate: float = 6.00
+initial_investment: float = st.sidebar.number_input('Initial investment')
+years: int = st.sidebar.slider('Years', min_value=1, max_value=50)
+return_rate: float = st.sidebar.number_input('Return rate')
 
 # additioan_contribution: float = 100.00
 
