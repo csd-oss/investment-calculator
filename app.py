@@ -10,4 +10,4 @@ accrued_amount = initial_investment * (1 + return_rate/100)**years
 
 st.write(f'''If you invest {initial_investment} for {years} years with
 return rate of {return_rate} at the end of that period
-you will get {accrued_amount}''')
+you will get **{round(accrued_amount, 2)}**''')
