@@ -1,4 +1,5 @@
 {
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/mk/.local/share/virtualenvs/investment-tbcVVFqV/bin/python"
 }
