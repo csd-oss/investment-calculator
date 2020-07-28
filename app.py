@@ -11,9 +11,9 @@ r = (return_rate/100)
 accrued_amount = initial_investment * (
     1 + r/compound_per_year)**(years*compound_per_year)
 
-st.write(f'''If you invest {initial_investment} for {years} years with
-return rate of {return_rate} at the end of that period
-you will get **{round(accrued_amount, 2)}**.''')
+st.write(f'''If you invest {round(initial_investment, 2)} for
+{round(years, 2)} years with return rate of {round(return_rate, 2)}
+at the end of that period you will get **{round(accrued_amount, 2)}**.''')
 
 if st.sidebar.checkbox('I WILL ADD MONEY TO IT'):
     addition_value = st.sidebar.number_input('Addition value', value=100.00)
