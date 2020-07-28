@@ -20,4 +20,5 @@ if st.sidebar.checkbox('I WILL ADD MONEY TO IT'):
 
     addition_future_value = accrued_amount + addition_value*((
         ((1+r)**(years))-1)/r)
-st.write(round(addition_future_value, 2))
+
+    st.write(round(addition_future_value, 2))
